@@ -1,3 +1,3 @@
-module github.com/tomdotorg/go-tutorial/greetings
+module example.com/greetings
 
 go 1.16
