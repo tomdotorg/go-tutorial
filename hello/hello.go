@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"example.com/greetings"
 )
 
 func main() {
 	// Get a greeting message and print it.
-	message := fmt.Sprint("Hello, world!")
+	message := greetings.Hello("Gladys")
 	fmt.Println(message)
 }
